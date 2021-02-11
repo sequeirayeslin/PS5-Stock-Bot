@@ -1,0 +1,25 @@
+[
+    {
+
+        "store_name": "Flipkart",
+        "url": "https://www.flipkart.com/sony-playstation-5-cfi-1008a01r-825-gb-astro-s-playroom/p/itma0201bdea62fa",
+        "check_string": "buy now",
+        "secondary_verify_string": "out of stock",
+        "headers": {
+			;copy-paste request headers your browser sends for the above url here
+	},
+        "check_frequecy_scaling_constant": 1 
+    },
+    {
+
+        "store_name": "Amazon",
+        "url": "https://www.amazon.in/Sony-CFI-1008A01R-PlayStation-5-console/dp/B08FV5GC28",
+        "check_string": "buy now",
+        "secondary_verify_string": "currently unavailable",
+        "headers": {
+            		;copy-paste request headers your browser sends for the above url here
+        },
+        "check_frequecy_scaling_constant": 2
+
+    }
+]
